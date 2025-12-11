@@ -1,7 +1,6 @@
 # 3_terraform_s3_and_vpc.md
 
-# ✅ Terraform – S3 and VPC Notes
-
+Remove citation references from documentation
 ---
 
 ## PART 1: S3 (Simple Storage Service)
