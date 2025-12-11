@@ -18,7 +18,7 @@ database_url: localhost
 
  
 
-- `data:` holds non-sensitive key–value pairs in plain text. [web:21][web:26]  
+- `data:` holds non-sensitive key–value pairs in plain text.   
 
 ---
 
@@ -55,7 +55,7 @@ key: app_name # key in ConfigMap
 
 Explanation:
 
-- `APP_NAME` gets value from `configmap.data.app_name` (`portfolio`). [web:21][web:22][web:39]  
+- `APP_NAME` gets value from `configmap.data.app_name` (`portfolio`).   
 
 ---
 
@@ -114,4 +114,4 @@ You should see:
 
 - `APP_NAME=portfolio`  
 
-This confirms the ConfigMap is successfully consumed as env vars. [web:21][web:22][web:31][web:32] 
+This confirms the ConfigMap is successfully consumed as env vars.  
