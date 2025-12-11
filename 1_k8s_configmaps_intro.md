@@ -15,8 +15,8 @@ ConfigMap is a Kubernetes object used to store **non-sensitive** configuration d
 
 Key idea:
 
-- ConfigMaps = non-sensitive data (plain text) [web:21][web:22][web:26]  
-- Secrets = sensitive data (passwords, tokens, API keys) [web:26][web:33][web:40]  
+- ConfigMaps = non-sensitive data (plain text)   
+- Secrets = sensitive data (passwords, tokens, API keys)   
 
 ---
 
@@ -24,13 +24,13 @@ Key idea:
 
 **ConfigMaps**
 
-- Store non-confidential configuration (DB URL, feature flags, app name). [web:21][web:26][web:33]  
-- Data stored as plain key–value pairs. [web:21][web:26]  
+- Store non-confidential configuration (DB URL, feature flags, app name).   
+- Data stored as plain key–value pairs.   
 
 **Secrets**
 
-- Store confidential data (username, password, credentials, tokens). [web:26][web:33][web:40]  
-- Values stored as base64-encoded strings under `data`. [web:18][web:33][web:40]  
+- Store confidential data (username, password, credentials, tokens).   
+- Values stored as base64-encoded strings under `data`.   
 
 ---
 
